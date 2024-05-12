@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="imgs/logo.ico" type="image/x-icon">
+
+  <title>شركة صهيل العربيه للمقاولات </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Noto+Sans+Arabic:wght@100..900&display=swap" rel="stylesheet">
+  <!-- تضمين Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <!-- تخصيص أنماط إضافية -->
+  <style>
+    
+    body {
+      background-color: #fff;
+      scroll-behavior: smooth;
+      font-size:large;
+      color: #000;
+      margin: 0;
+      padding: 0;
+      font-family: "Noto Sans Arabic", sans-serif;
+    }
+
+    header {
+      background-image: url(imgs/header.jpg);
+      background-size: cover;
+      opacity: 0.7;
+      background-position: center;
+     
+    }
+
+    .navbar {
+      direction: rtl;
+    }
+
+    .navbar-brand {
+      margin-left: auto;
+    }
+
+    .navbar-nav .nav-link {
+      margin-right: 15px;
+    }
+
+    .card {
+      height: 200px; 
+    }
+    footer {
+      font-size: 20px;
+      padding: 10px;
+      height: 100px;
+      color: white;
+    }
+  </style>
+</head>
+
+<body dir="rtl">
+  <div class="header"></div>
+  <nav class="navbar navbar-expand-lg navbar-light  navbar-shadow navbar-sm bg-white">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="imgs/logo.ico" alt="شعار الشركة " width="260" height="130">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">الرئيسية</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">خدماتنا</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">مشاريعنا</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">تواصل معنا</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- عنوان الصفحة -->
+  <header class="jumbotron jumbotron-fluid">
+    <div class="container text-center">
+    <h1 class="display-4">شركة صهيل العربية  للمقاولات </h1>
+    </div>
+  </header>
+
+  <!-- قسم الخدمات -->
+  <section class="py-5" id="services">
+    <div class="container  text-center">
+      <h2 class="mb-4">خدماتنا</h2>
+      <div class="row ">
+        <div class="col-lg-4  py-5">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-hammer service-icon"></i>
+              <h5 class="card-title">أعمال البناء</h5>
+              <p class="card-text">نقوم بتنفيذ أعمال البناء والتشييد بجودة عالية وفقًا للمواصفات المطلوبة.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4  py-5">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-brush service-icon"></i>
+              <h5 class="card-title">التشطيبات الداخلية</h5>
+              <p class="card-text">نقدم خدمات التشطيبات الداخلية بأحدث التصميمات والمواد ذات الجودة العالية.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4  py-5">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <i class="bi bi-tools service-icon"></i>
+              <h5 class="card-title">الصيانة والترميم</h5>
+              <p class="card-text">نهتم بصيانة وترميم المباني القديمة بمهارة وخبرة للحفاظ على جمالها وسلامتها.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم المشاريع -->
+  <section class="projects py-5" id="projects">
+    <div class="container">
+      <h2 class="text-center mb-4">مشاريعنا</h2>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="card mb-4">
+            <img src="project1.jpg" class="card-img-top" alt="مشروع 1">
+            <div class="card-body">
+              <h5 class="card-title">مشروع 1</h5>
+              <p class="card-text">وصف لمشروع 1</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card mb-4">
+            <img src="project2.jpg" class="card-img-top" alt="مشروع 2">
+            <div class="card-body">
+              <h5 class="card-title">مشروع 2</h5>
+              <p class="card-text">وصف لمشروع 2</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card mb-4">
+            <img src="project3.jpg" class="card-img-top" alt="مشروع 3">
+            <div class="card-body">
+              <h5 class="card-title">مشروع 3</h5>
+              <p class="card-text">وصف لمشروع 3</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <br>
+
+  <!--تواصل معنا -->
+  <section class="contact py-5" id="contact">
+    <div class="container">
+      <h2 class="text-center mb-4">تواصل معنا</h2>
+      <div class="row">
+        <div class="col-md-6 mx-auto text-right">
+          <form>
+            <div class="form-group">
+              <label for="name">الاسم</label>
+              <input type="text" class="form-control" id="name" placeholder="ادخل اسمك">
+            </div>
+            <div class="form-group">
+              <label for="email">البريد الإلكتروني</label>
+              <input type="email" class="form-control" id="email" placeholder="ادخل بريدك الإلكتروني">
+            </div>
+            <div class="form-group">
+              <label for="message">الرسالة</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="اكتب رسالتك"></textarea>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-dark">إرسال</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-center">
+    <p>  جميع الحقوق محفوظة لشركة صهيل العربيه للمقاولات  &copy;2024 </p>
+  </footer>
+  <!-- تضمين Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $(".card").hover(function(){
+        $(this).addClass("shadow-lg").css("cursor", "pointer");
+      }, function(){
+        $(this).removeClass("shadow-lg");
+      });
+      
+    });
+  </script>
+</body>
+
+
+</html>
